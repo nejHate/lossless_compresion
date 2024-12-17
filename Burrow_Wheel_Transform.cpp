@@ -129,7 +129,7 @@ int main(int argc, char* argv[]){
     std::string output_string = BurrowWheelTransform(input_string);
     std::cout << "output string 1: " << output_string;
     std::cout << std::endl << "# # # # # # # # # #" << std::endl;
-    input_string = ReverseBurrowWheelTransform(output_string, 3);
+    input_string = ReverseBurrowWheelTransform(output_string, 2422);
     std::cout << "output string 2: " << input_string << std::endl;
     //input_string = BurrowWheelTransform(output_string);
     //std::cout << input_string << std::endl;
